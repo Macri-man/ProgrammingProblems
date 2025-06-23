@@ -1,0 +1,16 @@
+The Fibonacci sequence 
+ is the unique sequence such that
+
+Similarly, there is a unique function 
+ such that
+
+Define 
+. For example
+ 
+You are also given 
+.
+
+Find 
+, giving your answer modulo 
+.
+

@@ -1,0 +1,26 @@
+For the year 
+
+Given positive integers 
+ and 
+, the concatenation 
+ we call a 
+-number if 
+.
+Other examples are 
+ and 
+.
+Note 
+ is not a 
+-number because the concatenation of 
+ and 
+ is 
+.
+
+Let 
+ be the sum of all 
+-numbers with 
+ digits or less. You are given 
+.
+
+Find 
+.
