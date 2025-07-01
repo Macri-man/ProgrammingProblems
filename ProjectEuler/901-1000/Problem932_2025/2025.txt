@@ -1,26 +1,102 @@
-For the year 
+Let:
 
-Given positive integers 
- and 
-, the concatenation 
- we call a 
--number if 
-.
-Other examples are 
- and 
-.
-Note 
- is not a 
--number because the concatenation of 
- and 
- is 
-.
+𝑎
+a and 
+𝑏
+b be positive integers
 
-Let 
- be the sum of all 
--numbers with 
- digits or less. You are given 
-.
+The concatenation of 
+𝑎
+a and 
+𝑏
+b, written as 
+𝑎
+𝑏
+ab, is the number formed by putting 
+𝑎
+a followed by 
+𝑏
+b
 
-Find 
-.
+𝑎
+𝑏
+=
+(
+𝑎
++
+𝑏
+)
+2
+ab=(a+b) 
+2
+ 
+
+We define:
+
+𝑇
+(
+𝑛
+)
+T(n) = sum of all such 2025-numbers with at most 
+𝑛
+n digits
+
+Examples:
+
+2025
+=
+(
+20
++
+25
+)
+2
+=
+45
+2
+2025=(20+25) 
+2
+ =45 
+2
+ 
+
+3025
+=
+(
+30
++
+25
+)
+2
+=
+55
+2
+3025=(30+25) 
+2
+ =55 
+2
+ 
+
+81
+=
+(
+8
++
+1
+)
+2
+=
+9
+2
+81=(8+1) 
+2
+ =9 
+2
+ 
+
+We are to find 
+𝑇
+(
+16
+)
+T(16)
