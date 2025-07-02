@@ -1,25 +1,17 @@
-#include <vector>
-#include <unordered_map>
+use std::collections::HashMap;
 
-using namespace std;
+impl Solution {
+    pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
+        let mut seen = HashMap::new(); // number -> index
 
-class Solution {
-public:
-    vector<int> twoSum(const vector<int>& nums, int target) {
-        unordered_map<int, int> num_map;
-        num_map.reserve(nums.size());
-        
-        for (int i = 0; i < nums.size(); i++) {
-            int complement = target - nums[i];
-            auto it = num_map.find(complement);
-            
-            if (it != num_map.end()) {
-                return {it->second, i};
+        for (i, num) in nums.iter().enumerate() {
+            let complement = target - num;
+            if let Some(&j) = seen.get(&complement) {
+                return vec![j as i32, i as i32];
             }
-            
-            num_map[nums[i]] = i;
+            seen.insert(num, i);
         }
-        
-        return {};
+
+        vec![] // problem guarantees one solution, so this won't be reached
     }
-};
+}
