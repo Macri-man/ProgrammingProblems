@@ -1,0 +1,30 @@
+Lauren has a chart of distinct projected prices for a house over the next several years. She must buy the house in one year and sell it in another, and she must do so at a loss. She wants to minimize her financial loss.
+
+Example
+price=[20,15,8,2,12]
+Her minimum loss is incurred by purchasing in year 2 at price[1] and reselling in year 5 at price[4]. Return 5-12=3.
+
+Function Description
+
+Complete the minimumLoss function in the editor below.
+
+minimumLoss has the following parameter(s):
+
+int price[n]: home prices at each year
+Returns
+
+int: the minimum loss possible
+Input Format
+
+The first line contains an integer , the number of years of house data.
+The second line contains  space-separated long integers that describe each price[i].
+
+Constraints
+2<=n<=2x10^5
+1<=price[i]<=10^16
+
+All the prices are distinct.
+A valid answer exists.
+Subtasks
+
+2<=n<1000 for 50% of the maximum score.
