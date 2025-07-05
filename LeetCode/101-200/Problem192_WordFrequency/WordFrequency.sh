@@ -1,0 +1,1 @@
+awk '{for(i=1;i<=NF;i++) freq[$i]++} END {for(w in freq) print w, freq[w]}' words.txt | sort -k2,2nr
