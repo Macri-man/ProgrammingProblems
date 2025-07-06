@@ -26,8 +26,6 @@ Constraints
 1<=A[i]<=10^4 where A[i] is the ith integer in A
 
 Sample Input 1
-
-CopyDownload
 Array: arr
 1
 4
