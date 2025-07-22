@@ -1,0 +1,1 @@
+awk 'BEGIN{OFS=" ";ORS="\n"} {for(i=1;i<=NF;i++) a[i,NR]=$i; if(NF>max)max=NF} END{for(i=1;i<=max;i++){line=a[i,1]; for(j=2;j<=NR;j++) line=line OFS a[i,j]; print line}}' file.txt
