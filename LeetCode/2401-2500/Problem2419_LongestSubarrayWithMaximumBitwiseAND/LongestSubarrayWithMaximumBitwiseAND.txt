@@ -28,6 +28,5 @@ The longest subarray with that value is [4], so we return 1.
  
 
 Constraints:
-
 1 <= nums.length <= 1065
 1 <= nums[i] <= 10^6
