@@ -19,7 +19,7 @@ Task
 Read 3 numbers from stdin and print their sum to stdout.
 
 Input Format
-One line that contains  space-separated integers: , , and .
+One line that contains 3 space-separated integers: a, b, and c.
 
 Constraints
 1<=a,b,c<=1000
