@@ -1,0 +1,29 @@
+You are given n triangles, specifically, their sides ai, bi and ci. Print them in the same style but sorted by their areas from the smallest one to the largest one. It is guaranteed that all the areas are different.
+
+The best way to calculate a area of a triangle with sides a, b and c is Heron's formula:
+s = sqrt(p X (p - a)  X (p - b) X (p - c)) where p = (a + b + c ) / 2.
+
+Input Format
+The first line of each test file contains a single integer n. n lines follow with three space-separated integers, ai, bi and ci.
+
+Constraints
+1 <= n <= 100
+1 <= ai ,bi , ci <= 70
+ai + bi > ci ai + ci > bi, and bi +ci > ai 
+
+Output Format
+Print exactly n lines. On each line print 3 space-separated integers, the ai, bi and ci of the corresponding triangle.
+
+Sample Input 0
+3
+7 24 25
+5 12 13
+3 4 5
+
+Sample Output 0
+3 4 5
+5 12 13
+7 24 25
+
+Explanation 0
+The area of the first triangle is 84. The area of the second triangle is 30. The area of the third triangle is 6. So the sorted order is the reverse one.
