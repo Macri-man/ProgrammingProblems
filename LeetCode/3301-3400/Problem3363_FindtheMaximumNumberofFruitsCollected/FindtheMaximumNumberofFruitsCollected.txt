@@ -15,30 +15,11 @@ Return the maximum number of fruits the children can collect from the dungeon.
 
 Example 1:
 
-Input: fruits = [[1,2,3,4],[5,6,8,7],[9,10,11,12],[13,14,15,16]]
+Input: fruits = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]
 
 Output: 100
 
 Explanation:
-1 green 2 3 4 red
-5 6 8 7
-9 10 11 12
-13 blue 14 15 1
-
-1 2 3 4
-5 6 green 8 red 7
-9 10 11 12
-13 14 blue 15 1
-
-1 2 3 4
-5 6 8 7
-9 10 11 green 12 red
-13 14 15 blue 1
-
-1 2 3 4
-5 6 8 7
-9 10 11 12
-12 14 15 1 finished
 
 In this example:
 The 1st child (green) moves on the path (0,0) -> (1,1) -> (2,2) -> (3, 3).
